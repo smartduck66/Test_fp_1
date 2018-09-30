@@ -91,6 +91,9 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableModules>false</EnableModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
